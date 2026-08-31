@@ -1,0 +1,50 @@
+{
+  "name": "Опять по 25 (18+)",
+  "short_name": "Панчлайн (18+)",
+  "description": "Смешная карточная игра для компании 18+ прямо в Telegram и браузере",
+  "start_url": "/webapp/index.html",
+  "scope": "/webapp/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#17212b",
+  "theme_color": "#17212b",
+  "lang": "ru",
+  "categories": [
+    "games",
+    "entertainment"
+  ],
+  "icons": [
+    {
+      "src": "assets/logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/logo-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Создать комнату",
+      "short_name": "Создать",
+      "description": "Быстрый старт новой игры",
+      "url": "/webapp/index.html?action=create",
+      "icons": [
+        {
+          "src": "assets/icon-add.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
